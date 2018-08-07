@@ -1,0 +1,28 @@
+{
+  "name": "trello-reminders-web",
+  "version": "0.0.1",
+  "description": "Trello Reminders Web App",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "purs:compile": "purs compile 'bower_components/purescript-*/src/**/*.purs' 'src/**/*.purs'",
+    "pscid": "pscid",
+    "webpack": "webpack --mode development --progress",
+    "webpack:watch": "webpack --mode development --progress --watch",
+    "webpack-dev-server": "DEBUG=* webpack-dev-server --mode development --progress --inline --hot"
+  },
+  "author": "omefire@gmail.com",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "purescript": "^0.12.0",
+    "purs-loader": "^3.2.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
