@@ -44,5 +44,9 @@ module.exports = {
       '.purs',
       '.js'
     ]
+  },
+
+  optimization: {
+      minimize: false   
   }
 };
