@@ -12,7 +12,8 @@
     "purescript-effect": "^2.0.0",
     "purescript-react-dom": "^6.0.0",
     "purescript-react": "^6.0.0",
-    "purescript-web-html": "^1.0.0"
+    "purescript-web-html": "^1.0.0",
+    "purescript-arrays": "^5.0.0"
   },
   "devDependencies": {
     "purescript-psci-support": "^4.0.0"
